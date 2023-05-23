@@ -8,7 +8,7 @@ const Navbar = ()  => {
         <nav className="Navbar">
 
             <h1 className="Logo"> 
-                Global Tech
+                New Horizons
             </h1>
 
             <div className="AllBtn">
