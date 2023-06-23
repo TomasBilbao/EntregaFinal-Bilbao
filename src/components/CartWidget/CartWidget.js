@@ -1,13 +1,26 @@
-import Carrito from "./assets/Carrito.png"
 import "./CartWidget.css"
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faCartShopping} from "@fortawesome/free-solid-svg-icons";
+import { useCart } from "../../context/CartContext";
+import { useNavigate } from 'react-router-dom'
 
 const CarWidget = () => {
+
+    const navigate = useNavigate()
+    const {totalQuantity} = useCart()
+
     return (
-        <div className="DivCarrito">
-            <img src={Carrito} alt="Carrito-Widget" className="LogoCarrito LogoCarritoZoom"/>
-            0
+
+        <div onClick={() => navigate("/cart")} className="Cart">
+
+            <FontAwesomeIcon icon={faCartShopping} className="CarritoIcon"/>
+            
+            <h2 className="UndCarrito">{totalQuantity}</h2>
+
         </div>
+
     )
+
 }
 
 export default CarWidget
