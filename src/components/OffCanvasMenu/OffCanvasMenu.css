@@ -1,0 +1,101 @@
+.OffCanvasBurgerIcon{
+    
+    color: #fffefe; 
+    width: 2em; 
+    height: 3em; 
+    margin-top: 6px;
+
+
+}
+
+.OffCanvasBurgerIcon:hover{
+    transform: scale(1.1);
+}
+
+.svg-inline--fa {
+    vertical-align: none;
+}
+
+.OffcanvasHeader{
+    background-color: rgb(197, 197, 197);
+    justify-content: space-around !important;
+}
+
+.OffCanvasLogo{
+    font-family: "Lobster";
+    font-size: 2em !important;
+    font-weight: 400;
+    color: rgb(0, 0, 0) !important;
+    margin-top: 5px;
+    text-decoration: none; 
+}
+
+.OffCanvasLogo:hover{
+    transform: scale(1.05);
+}
+
+.AllBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.btn-close:focus {
+
+    box-shadow: none !important;
+    opacity: 1;
+}
+
+.Botones {
+    font-family: 'Lato';
+    color: rgba(88, 88, 88, 0.781);
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: 1.20em;
+    font-weight: bolder;
+    padding: 0.50em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+}
+
+.Botones:hover{
+    color:#010101;
+    font-weight: bolder;
+}
+
+.Subrayado {
+    background-image: linear-gradient(transparent 0%, transparent 94%, #000000 94%, #000000 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 500ms;
+}
+
+.Subrayado:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.ActiveOption{
+    font-family: 'Lato';
+    color: black;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: 1.20em;
+    font-weight: bolder;
+    padding: 0.50em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+}
+
+.ActiveOption:hover{
+    color: black;
+}
