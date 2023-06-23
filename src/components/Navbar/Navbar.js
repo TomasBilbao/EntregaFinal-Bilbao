@@ -11,7 +11,7 @@ const Navbar = () => {
                     <OffcanvasS/>
                 </div>
                 <div className="GridLogo Logo">
-                    <Link to='/' className="Logo">Global Tech</Link>
+                    <Link to='/' className="Logo">New Horizons</Link>
                 </div>
                 <div className="GridCarrito">
                     <CarWidget/>
